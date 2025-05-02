@@ -1,0 +1,16 @@
+{
+  "name": "effect-playing",
+  "version": "1.0.0",
+  "description": "Messing around with TS and Effect lib",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "program.ts",
+  "scripts": {
+    "test": "npx tsc program.ts && node program.js"
+  },
+  "dependencies": {
+    "effect": "^3.14.18",
+    "typescript": "^5.8.3"
+  }
+}
