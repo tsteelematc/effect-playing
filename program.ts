@@ -1,9 +1,9 @@
-import {Effect} from 'effect';
+import { Effect } from 'effect';
 
 console.log("Hello Effect");
 
-const myFirstEffect = Effect.succeed(42);
+// const myFirstEffect = Effect.succeed(42);
 
-Effect.sync(
-    () => myFirstEffect
-);
+// Effect.sync(
+//     () => myFirstEffect
+// );

@@ -7,7 +7,7 @@
   "type": "module",
   "main": "program.ts",
   "scripts": {
-    "test": "npx tsc program.ts && node program.js"
+    "test": "npx tsc --project tsconfig.json && node dist/program.js"
   },
   "dependencies": {
     "effect": "^3.14.18",
